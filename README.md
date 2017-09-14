@@ -1,7 +1,9 @@
-# Blog Scraping
+# Blog Scraping + NLP Analysis
 
 Experimenting with scraping (via the rvest package) and natural language processing analysis (via the NLP and openNLP packages). Used the Facebook API via the Rfacebook package to pull data on likes & shares for each post. Wrote this mainly for fun and a kooky obsession with Seth Godin's blog, but what I learned writing it came in handy months later on a project for a client.
 
 ## Room for Improvement
 
 For one, the scraping process would be a lot faster if I extracted multiple elements from an html page once, instead of extracting one element from the page, then later revisiting it in rvest and extracting another item. In the analysis code, I'd focus on the DRY principle, and have made a function or two to cut down on the code for making data frames of NLP analysis. Also would add clearer variable names and a more DRY-compliant or better way of adding to data frames than dg, dz, etc. for temporary data frames to add to larger ones (see the scraping file).
+
+I played around with some markov-babbling, and was considering throwing machine learning into the mix to see what a new post composed from random posts would look like, but alas, that's a project for another time.
