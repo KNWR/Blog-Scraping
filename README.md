@@ -4,4 +4,4 @@ Experimenting with scraping (via the rvest package) and natural language process
 
 ## Room for Improvement
 
-For one, the scraping process would be a lot faster if I extracted multiple elements from an html page once, instead of extracting one element from the page, then later revisiting it in rvest and extracting another item. In the analysis code, I'd focus on the DRY principle, and have made a function or two to cut down on the code for making data frames of NLP analysis. 
+For one, the scraping process would be a lot faster if I extracted multiple elements from an html page once, instead of extracting one element from the page, then later revisiting it in rvest and extracting another item. In the analysis code, I'd focus on the DRY principle, and have made a function or two to cut down on the code for making data frames of NLP analysis. Also would add clearer variable names and a more DRY-compliant or better way of adding to data frames than dg, dz, etc. for temporary data frames to add to larger ones (see the scraping file).
